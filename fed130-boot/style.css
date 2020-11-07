@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(196, 26, 196);
+    display:flex;
+    justify-content: center;
+    height: 100px;
+    padding-top: 250px;
+}
+.container{
+    background:white ;
+    display:flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 700px;
+    padding: 50px;
+    align-self:center;
+}
+.row{
+    display: flex;
+}
+.col{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container >.row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.profile-icon{
+    border-radius: 50%;
+    border: 2px solid bisque;
+    width: 50%;
+}
+.name{
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+.goals{
+    font-size: xx-large;
+}
+.score > goals{
+    margin:0.5px;
+}
+.result{
+    color:rgb(114, 43, 82);
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+button{
+    text-align: center;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom:5px; 
+    color: white;
+    background-color: #daa106;
+    border-radius: 10%;
+    border-style: unset;
+}
